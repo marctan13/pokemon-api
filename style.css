@@ -1,0 +1,35 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+}
+
+.searchBox{
+    margin-top: 20%;
+    text-align: center;
+    border-radius: 0 8px 8px 0;
+    border: 0;
+    height: 36px;
+    padding: 4px 8px;
+}
+
+#pokemonName{
+    background-color: rgb(79, 183, 183);
+}
+
+.pokemonBox{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.pokemonBox img{
+    width: 200px;
+}
+
+.pokemonBox p{
+    margin-top: 1rem;
+}
+
+.pokemonBox .pokemonInfos{
+    padding: 2rem;
+}
