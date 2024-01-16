@@ -1,15 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Times New Roman', Times, serif;
     background-color: aquamarine;
 }
 
+#logo{
+    /* display: flex;
+    justify-content: center; */
+    width: 15rem;
+    height: 10rem;
+}
+
 .searchBox{
-    margin-top: 20%;
+    display: block;
+    margin-top: 10%;
     text-align: center;
     border-radius: 0 8px 8px 0;
     border: 0;
     height: 36px;
-    padding: 4px 8px;
+    padding: 8px;
 }
 
 #pokemonName{
@@ -17,9 +29,9 @@ body{
 }
 
 .pokemonBox{
-    display: flex;
-    margin-top: 2rem;
-    justify-content: center;
+    display: block;
+    margin-top: 12rem;
+    text-align: center;
 }
 
 .pokemonBox img{
@@ -32,4 +44,8 @@ body{
 
 .pokemonBox .pokemonInfos{
     padding: 2rem;
+}
+
+.moves{
+    list-style-type: none;
 }
