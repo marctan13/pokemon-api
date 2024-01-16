@@ -4,13 +4,13 @@
 
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: aquamarine;
+    background-color: #ff1f1f;
 }
 
 #logo{
     /* display: flex;
     justify-content: center; */
-    width: 15rem;
+    width: 40%;
     height: 10rem;
 }
 
@@ -25,7 +25,7 @@ body{
 }
 
 #pokemonName{
-    background-color: rgb(79, 183, 183);
+    background-color: #fbd743;
 }
 
 .pokemonBox{
@@ -34,6 +34,9 @@ body{
     text-align: center;
 }
 
+#genOne{
+    margin-top: 10px;
+}
 .pokemonBox img{
     width: 200px;
 }
