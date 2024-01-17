@@ -8,9 +8,7 @@ body{
 }
 
 #logo{
-    /* display: flex;
-    justify-content: center; */
-    width: 40%;
+    width: 25em;
     height: 10rem;
 }
 
